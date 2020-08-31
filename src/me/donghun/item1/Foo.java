@@ -56,6 +56,7 @@ public class Foo {
     public static void main(String[] args) {
         Foo foo1 = Foo.getCoolFoo(); // 이름을 붙일 수 있기 때문에 보다 명시적이다.
         Foo foo2 = Foo.getFancyFoo();
+        new Foo();
     }
 
     static class BabyFoo extends Foo {}
